@@ -41,6 +41,14 @@ body {
     padding: 0;
 }
 
+.nav-list-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 15px;
+}
+
 .nav-list li {
     margin: 0 15px;
 }
@@ -52,17 +60,18 @@ body {
 }
 
 .main-content {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    gap: 20px;
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .repo-overview {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
     margin-bottom: 20px;
-    grid-column: span 2;
+
+
 }
 
 .repo-details {
@@ -141,6 +150,7 @@ body {
 
 .file-list tbody tr:hover {
     background-color: #f1f8ff;
+    cursor: pointer;
 }
 
 .repo-sidebar {
